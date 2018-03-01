@@ -17,7 +17,7 @@ if (!process.env.SPARK_TOKEN) {
     console.log("Could not start as this bot requires a Cisco Spark API access token.");
     console.log("Please add env variable SPARK_TOKEN on the command line");
     console.log("Example: ");
-    console.log("> SPARK_TOKEN=XXXXXXXXXXXX PUBLIC_URL=YYYYYYYYYYYYY node helloworld.js");
+    console.log("> SPARK_TOKEN=ODA1NDNlOWEtMmI2Yy00YmVjLTk1MjktNGQ1NjAzYTE0ODIzZjY3NjU0MWYtNGJk PUBLIC_URL=https://testeando-micherod.herokuapp.com node helloworld.js");
     process.exit(1);
 }
 
@@ -25,7 +25,7 @@ if (!process.env.PUBLIC_URL) {
     console.log("Could not start as this bot must expose a public endpoint.");
     console.log("Please add env variable PUBLIC_URL on the command line");
     console.log("Example: ");
-    console.log("> SPARK_TOKEN=XXXXXXXXXXXX PUBLIC_URL=YYYYYYYYYYYYY node helloworld.js");
+    console.log("> SPARK_TOKEN=ODA1NDNlOWEtMmI2Yy00YmVjLTk1MjktNGQ1NjAzYTE0ODIzZjY3NjU0MWYtNGJk PUBLIC_URL=https://testeando-micherod.herokuapp.com node helloworld.js");
     process.exit(1);
 }
 
